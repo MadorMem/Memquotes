@@ -1,0 +1,248 @@
+#navBarLink{
+    color: #ffffff
+}
+#navBar{
+    text-align: left;
+}
+.centered{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.half{
+    width: 50%;
+    margin: auto;
+}
+.third{
+    width: 33%;
+    margin: auto;
+}
+.displayflex{
+  display: flex;
+}
+.rtl{
+  direction: rtl;
+  text-align: right;
+}
+.header{
+    margin-bottom: 50px;
+    background-color: rgb(15, 26, 34);
+    /* font-family: 'Roboto'; */
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.rubik{
+  font-family: 'Rubik', 'Roboto';
+}
+.roboto{
+  font-family: 'Roboto', 'Rubik';
+}
+.full-width{
+  width: 100%;
+}
+.underHeaderBody{
+    /* background-color: rgb(38, 50, 59); */
+    background-color: rgb(25, 38, 49);
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 17px;
+}
+.rtl-parent{
+  display: flex;
+}
+.rtl-parent-col{
+  display: flex;
+  flex-direction: column;
+}
+.rtl-child{
+  margin-left:auto;
+}
+.bottom-spacer{
+  margin-bottom: 2.25rem;
+}
+.text-danger{
+  color: rgb(150, 10, 23);
+}
+.text-success{
+  color: #28a745;
+}
+.dark-textbox{
+    color: rgb(243, 249, 229);
+    background-color: rgb(8, 11, 12);
+    border-top-color: rgb(43, 53, 64);
+    border-right-color: rgb(43, 53, 64);
+    border-bottom-color: rgb(43, 53, 64);
+    border-left-color: rgb(43, 53, 64);
+}
+.btn-danger{
+      color: rgb(255, 255, 255);
+    background-color: rgb(150, 10, 23);
+    border-top-color: rgb(163, 12, 27);
+    border-right-color: rgb(163, 12, 27);
+    border-bottom-color: rgb(163, 12, 27);
+    border-left-color: rgb(163, 12, 27);
+}
+.main{
+    background-color: rgb(25, 38, 49);
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+}
+.formButton{
+    margin-top: 27px;
+}
+.cards{
+    background-color: rgb(15, 26, 34);
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+}
+.card-body{
+  white-space:pre-wrap;
+  box-shadow: 1px 0 3px 1px rgba(100, 100, 100, 0.25);
+}
+.card-footer{
+  border-top: 1px solid rgba(190, 190, 190,.125);
+}
+.name{
+  text-shadow: 0 0 15px rgba(200, 200, 200, 0.30);
+}
+.quoteSubtitle{
+  margin-top: .25rem;
+  margin-bottom: .25rem;
+  font-size: 20px;
+  font-style: italic;
+  color: 
+}
+input{
+    color: rgb(243, 249, 229) !important;
+    background-color: rgb(8, 11, 12) !important;
+    border-top-color: rgb(43, 53, 64) !important;
+    border-right-color: rgb(43, 53, 64) !important;
+    border-bottom-color: rgb(43, 53, 64) !important;
+    border-left-color: rgb(43, 53, 64) !important;
+}
+  @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Rubik Normal'), local('Rubik-Normal'), url(Rubik.woff2) format('woff2');
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url(Roboto-Light-webfont.woff) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url(Roboto-Light-webfont.woff) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  /* latin-ext */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(Roboto-Regular-webfont.woff) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(Roboto-Regular-webfont.woff) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  /* latin-ext */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(Roboto-Bold-webfont.woff) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(Roboto-Bold-webfont.woff) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+/*
+ * See: https://fonts.google.com/license/googlerestricted
+ */
+  /* latin-ext */
+  @font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Product Sans'), local('ProductSans-Regular'), url(Product\ Sans\ Regular.ttf) format('truetype');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Product Sans'), local('ProductSans-Regular'), url(Product\ Sans\ Regular.ttf) format('truetype');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Product Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Product Sans Italic'), local('ProductSans-Italic'), url(Product\ Sans\ Italic.ttf) format('truetype');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Product Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Product Sans Italic'), local('ProductSans-Italic'), url(Product\ Sans\ Italic.ttf) format('truetype');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Product Sans Bold'), local('ProductSans-Bold'), url(Product\ Sans\ Bold.ttf) format('truetype');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Product Sans Bold'), local('ProductSans-Bold'), url(Product\ Sans\ Bold.ttf) format('truetype');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Product Sans';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Product Sans Bold Italic'), local('ProductSans-Bold-Italic'), url(https://fonts.gstatic.com/s/productsans/v9/pxicypQkot1TnFhsFMOfGShdrPKbQWlBkm8.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Product Sans';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Product Sans Bold Italic'), local('ProductSans-Bold-Italic'), url(https://fonts.gstatic.com/s/productsans/v9/pxicypQkot1TnFhsFMOfGShdrPKbQWlBkm8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
